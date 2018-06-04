@@ -1,4 +1,4 @@
-# The pseudo maximum likelihood estimators of semiparametric transformation models with bouby truncated models
+# The pseudo maximum likelihood estimators of semiparametric transformation models with bouby truncated data
 
 ## douby truncated data
 * data with both left-truncation and right-truncation.
