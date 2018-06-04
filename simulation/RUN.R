@@ -9,28 +9,28 @@ rm(list = ls())
 library(nleqslv)
 
 
-############################################  ##?]?w???|
+############################################ 
                                            #
-setwd("/Users/liuyi/survival/simulation/")  # 
-                                           #
-############################################
-
-
-
-########  transformation functions  ########  ##???ܼҫ? 
-                                           #
-  md = "log trans"                                #  ("ph","prop odds","log trans","Box Cox")
+setwd("/Users/liuyi/survival/simulation/") # 
                                            #
 ############################################
 
 
 
-#############   setup   ####################  ##?ѼƳ]?w
+########  transformation functions  ######## 
+                                           #
+  md = "log trans"                         #  ("ph","prop odds","log trans","Box Cox")
+                                           #
+############################################
+
+
+
+#############   setup   ####################  
                                            #
   REP=100                                  #
   nn=n=100                                 #
   stheta=0.25                              #
-  d0=12   
+  d0=12                                    #
   jack=n                                   #                                   
   sbeta=c(-2,-3)                           #                               
   rho=0.5                                  #
